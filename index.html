@@ -20,6 +20,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <style type="text/css">
+      body {
+        /*font-family: 'Dosis';*/
+        text-transform: lowercase;
+      }
+    </style>
   </head>
   <body style="background-color: rgb(238, 237, 240);">
     <video autoplay muted id="bgVideo" style="position: fixed; right: 0;bottom: 0;min-width: 100%; min-height: 100%; z-index: -500; -o-filter: blur(10px);filter: blur(10px);object-fit: cover; transform: scale(1.04)">
@@ -31,6 +37,8 @@
   <header>
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center text-dark text-decoration-none" style="font-family: 'Dosis', serif;">
+    <img src='logo.png' class="bi me-2" width="25" height="25" style="-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);"/>
       <span class="fs-4">stuffor.art</span>
     </a>
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -39,12 +47,7 @@
         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Топ мейкеров</a>
       </nav>
     </div>
-    <style type="text/css">
-      body {
-        /*font-family: 'Dosis';*/
-        text-transform: lowercase;
-      }
-    </style>
+    
   </header>
 
   <main>
